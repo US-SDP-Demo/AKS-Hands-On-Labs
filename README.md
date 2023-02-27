@@ -10,7 +10,7 @@ This repository contains a devontainer definition which has all of the tools nee
 * Day 2: Advanced Kubernetes (03/10/2023)
   * [Challenge 4: Scaling](https://microsoft.github.io/WhatTheHack/023-AdvancedKubernetes/Student/04-scaling.html)
   * [Challenge 7: Data Volumes](https://microsoft.github.io/WhatTheHack/023-AdvancedKubernetes/Student/07-data-volumes.html)
-  * (*Bonus*)[Challenge 6: Service Mesh](https://microsoft.github.io/WhatTheHack/023-AdvancedKubernetes/Student/06-service-mesh.html)
+  * (*Bonus*) [Challenge 6: Service Mesh](https://microsoft.github.io/WhatTheHack/023-AdvancedKubernetes/Student/06-service-mesh.html)
 * Day 3: Enterprise Grade AKS (03/17/2023)
   * [Challenge 2: Network Integration and Private Clusters](https://microsoft.github.io/WhatTheHack/039-AKSEnterpriseGrade/Student/02-aks_private.html)
   * [Challenge 3: Monitoring](https://microsoft.github.io/WhatTheHack/039-AKSEnterpriseGrade/Student/03-aks_monitoring.html)
