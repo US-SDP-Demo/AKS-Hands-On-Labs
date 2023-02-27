@@ -1,5 +1,5 @@
 # SDP AKS Hands On Labs
-This repository contains a devontainer definition which has all of the tools needed to complete this lab preinstalled. To get started, please [create a new codespace](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=605246858).
+This repository contains a devcontainer definition which has all of the tools needed to complete this lab preinstalled. To get started, please [create a new codespace](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=605246858).
 
 ## Agenda
 * Day 1: Intro To Kubernetes (03/03/2023)
