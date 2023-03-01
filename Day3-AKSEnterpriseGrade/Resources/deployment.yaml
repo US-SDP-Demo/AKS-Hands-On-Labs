@@ -1,0 +1,48 @@
+################# ATTENTION #################
+# This is just a template deployment for this lab. 
+# You will need to modify this to fit your needs and add additional resources to complete the challenge.
+# The containers are already published to the tags provided below.
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web
+  labels:
+    app: web
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: web
+  template:
+    metadata:
+      labels:
+        app: web
+    spec:
+      containers:
+      - name: web
+        image: ghcr.io/us-sdp-demo/aks-hands-on-labs/web:v1
+        ports:
+        - containerPort: 80
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api
+  labels:
+    app: api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: api
+  template:
+    metadata:
+      labels:
+        app: api
+    spec:
+      containers:
+      - name: api
+        image: ghcr.io/us-sdp-demo/aks-hands-on-labs/api:v1
+        ports:
+        - containerPort: 80
